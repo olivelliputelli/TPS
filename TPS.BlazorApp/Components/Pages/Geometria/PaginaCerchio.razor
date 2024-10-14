@@ -1,0 +1,20 @@
+﻿@page "/geometria/cerchio"
+@rendermode InteractiveServer
+
+<h3>Cerchio</h3>
+
+<div>
+    Raggio 
+    <input type="number"
+        @bind="cerchio.Raggio" 
+        @bind:event="oninput" />
+</div>
+<p>
+    Area = @cerchio.Area() m<sup>2</sup> 
+    <br />
+    Circonferenza = @cerchio.Circonferenza() m
+</p>
+
+@code {
+    Cerchio cerchio = new();
+}
