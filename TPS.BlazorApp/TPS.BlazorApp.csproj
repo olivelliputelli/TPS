@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TPS.ClassLibrary\TPS.ClassLibrary.csproj" />
+  </ItemGroup>
+
 </Project>
